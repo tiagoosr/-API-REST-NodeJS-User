@@ -8,4 +8,5 @@ app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
 
 require('./controllers/tarefaController')(app);
+require('./controllers/authController')(app);
 module.exports = app; 
