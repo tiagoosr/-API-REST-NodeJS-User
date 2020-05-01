@@ -9,4 +9,5 @@ app.use(bodyparser.urlencoded({ extended: true }));
 
 require('./controllers/tarefaController')(app);
 require('./controllers/authController')(app);
+require('./controllers/projectController')(app);
 module.exports = app; 
