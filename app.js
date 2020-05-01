@@ -7,5 +7,5 @@ app.use(cors());
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
 
-require('./controllers/authController')(app);
+require('./controllers/tarefaController')(app);
 module.exports = app; 
